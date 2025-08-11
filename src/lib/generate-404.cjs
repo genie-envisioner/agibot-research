@@ -3,7 +3,7 @@ const fs = require('fs')
 const path = require('path')
 
 const repoName = 'agibot-research' 
-const distDir = path.resolve(__dirname, '../dist')
+const distDir = path.resolve(__dirname, '../../dist')
 const filePath = path.join(distDir, '404.html')
 
 const html = `<!DOCTYPE html>
