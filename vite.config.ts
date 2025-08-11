@@ -13,7 +13,7 @@ export default defineConfig({
       includeProps: true,
     })
   ],
-  base: '/',
+  base: '/agibot-research',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
