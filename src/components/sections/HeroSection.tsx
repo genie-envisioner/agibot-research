@@ -2,6 +2,7 @@ import React from 'react';
 import { ChevronDown, ArrowRight } from 'lucide-react';
 import Button from '../ui/Button';
 import { HomeProject } from '../../data/home';
+import { useNavigate } from 'react-router-dom';
 
 interface HeroSectionProps {
   project: HomeProject;
@@ -9,6 +10,7 @@ interface HeroSectionProps {
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({ project, onScrollToNext }) => {
+  const navigate = useNavigate();
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -59,7 +61,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ project, onScrollToNext }) =>
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           {project.learnMoreUrl && (
-            <Button size="lg" onClick={() => window.location.href = project.learnMoreUrl}>
+            <Button size="lg" onClick={() => navigate(project.learnMoreUrl)}>
               <span>Learn More</span>
               <ArrowRight size={20} className="ml-2" />
             </Button>
