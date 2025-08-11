@@ -17,6 +17,8 @@ jobs:
               with:
                   node-version: "22.x"
             - run: node -v
+            - name: Install pnpm
+              run: npm install -g pnpm
             - run: npm install
             - run: npm run build
             - name: Deploy
