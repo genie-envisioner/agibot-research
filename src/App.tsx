@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename=''>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="App min-h-screen bg-[#0A0A0A]">
         <Routes>
           <Route path="/" element={<Home />} />
