@@ -19,7 +19,7 @@ export const homeProjects: HomeProject[] = [
     title: 'AgiBot Research',
     subtitle: 'Pioneering Embodied Intelligence',
     description: 'Leading the frontiers of embodied AI with cutting-edge research in robotics, world models, and intelligent agents. We bridge the gap between digital intelligence and physical reality.',
-    image: '/images/futuristic_ai_brain_neural_network_dark_hero.jpg',
+    image: './images/futuristic_ai_brain_neural_network_dark_hero.jpg',
     learnMoreUrl: '/about',
     features: [
       'Embodied Large & Small Brain Architecture',
@@ -33,7 +33,7 @@ export const homeProjects: HomeProject[] = [
     title: 'AgiBot World',
     subtitle: 'Comprehensive Embodied AI Dataset',
     description: 'A revolutionary multi-modal dataset capturing diverse real-world interactions for training embodied AI agents. Featuring over 1M episodes of robot-environment interactions across 1000+ scenarios.',
-    image: '/images/ai_neural_network_data_visualization_concept.jpg',
+    image: './images/ai_neural_network_data_visualization_concept.jpg',
     githubUrl: 'https://github.com/agi-bot/agibot-world',
     features: [
       'Multi-modal sensory data (RGB, Depth, Tactile)',
@@ -53,7 +53,7 @@ export const homeProjects: HomeProject[] = [
     title: 'GO-1 Large Model',
     subtitle: 'Next-Generation Embodied Intelligence',
     description: 'Our flagship large-scale model architecture combining language understanding, visual perception, and motor control into a unified embodied intelligence system.',
-    image: '/images/transformer_architecture_large_language_model_ai_diagram.jpg',
+    image: './images/transformer_architecture_large_language_model_ai_diagram.jpg',
     learnMoreUrl: '/models',
     githubUrl: 'https://github.com/agi-bot/go-1',
     features: [
@@ -74,7 +74,7 @@ export const homeProjects: HomeProject[] = [
     title: 'Genie Envisioner',
     subtitle: 'Universal World Model',
     description: 'A powerful world model capable of learning and simulating complex physical environments from minimal data, enabling intelligent agents to plan and reason about the future.',
-    image: '/images/virtual_world_model_simulation_ai_genie_envisioner.jpg',
+    image: './images/virtual_world_model_simulation_ai_genie_envisioner.jpg',
     learnMoreUrl: '/research',
     features: [
       'Predictive world simulation',

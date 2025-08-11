@@ -27,7 +27,7 @@ export const models: Model[] = [
     githubUrl: 'https://github.com/agi-bot/go-1-foundation',
     huggingfaceUrl: 'https://huggingface.co/agibot/go-1-foundation',
     paperUrl: '/papers/go-1-foundation.pdf',
-    image: '/images/abstract_large_language_model_architecture_diagram.jpg',
+    image: './images/abstract_large_language_model_architecture_diagram.jpg',
     features: [
       '10B parameter multimodal architecture',
       'Vision-Language-Action unified training',
@@ -51,7 +51,7 @@ export const models: Model[] = [
     githubUrl: 'https://github.com/agi-bot/genie-world-model',
     huggingfaceUrl: 'https://huggingface.co/agibot/genie-world-model',
     paperUrl: '/papers/genie-world-model.pdf',
-    image: '/images/machine_learning_climate_modeling_digital_twin_earth_diagram.jpg',
+    image: './images/machine_learning_climate_modeling_digital_twin_earth_diagram.jpg',
     features: [
       'Predictive environment simulation',
       'Few-shot adaptation to new environments',
@@ -75,7 +75,7 @@ export const models: Model[] = [
     githubUrl: 'https://github.com/agi-bot/embodied-controller',
     paperUrl: '/papers/embodied-controller.pdf',
     demoUrl: 'https://agibot-research.com/demos/controller',
-    image: '/images/neural_network_architecture_diagram_ai_data_visualization.jpg',
+    image: './images/neural_network_architecture_diagram_ai_data_visualization.jpg',
     features: [
       'Hierarchical control architecture',
       'Multi-task learning capabilities',
@@ -99,7 +99,7 @@ export const models: Model[] = [
     githubUrl: 'https://github.com/agi-bot/perception-engine',
     huggingfaceUrl: 'https://huggingface.co/agibot/perception-engine',
     paperUrl: '/papers/perception-engine.pdf',
-    image: '/images/ai_semantic_clustering_neural_network_data_visualization.jpg',
+    image: './images/ai_semantic_clustering_neural_network_data_visualization.jpg',
     features: [
       '3D scene understanding',
       'Object detection and tracking',
@@ -123,7 +123,7 @@ export const models: Model[] = [
     githubUrl: 'https://github.com/agi-bot/agibot-vlm',
     huggingfaceUrl: 'https://huggingface.co/agibot/agibot-vlm',
     paperUrl: '/papers/agibot-vlm.pdf',
-    image: '/images/transformer_neural_network_architecture_diagram_llm.jpg',
+    image: './images/transformer_neural_network_architecture_diagram_llm.jpg',
     features: [
       'Vision-language understanding',
       'Instruction following',
@@ -147,7 +147,7 @@ export const models: Model[] = [
     githubUrl: 'https://github.com/agi-bot/agibot-rl',
     paperUrl: '/papers/agibot-rl.pdf',
     demoUrl: 'https://agibot-research.com/demos/rl',
-    image: '/images/neural_network_word_vector_language_model_architecture_diagram.jpg',
+    image: './images/neural_network_word_vector_language_model_architecture_diagram.jpg',
     features: [
       'Distributed training support',
       'Multi-environment compatibility',

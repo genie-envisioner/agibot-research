@@ -89,7 +89,7 @@ const About: React.FC = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/images/high_tech_ai_robotics_research_lab.jpg"
+                  src="./images/high_tech_ai_robotics_research_lab.jpg"
                   alt="AgiBot Research Lab"
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
                 />

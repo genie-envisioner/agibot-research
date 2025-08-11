@@ -32,7 +32,7 @@ export const researchDirections: ResearchDirection[] = [
     subtitle: 'Unified Intelligence Architecture',
     description: 'Developing integrated architectures that combine large-scale foundation models with efficient specialized modules for embodied intelligence. Our research focuses on creating systems that can leverage both general knowledge and task-specific expertise.',
     icon: 'Brain',
-    image: '/images/abstract_large_language_model_architecture_diagram.jpg',
+    image: './images/abstract_large_language_model_architecture_diagram.jpg',
     keyTopics: [
       'Unified multimodal architectures',
       'Modular intelligence systems',
@@ -47,7 +47,7 @@ export const researchDirections: ResearchDirection[] = [
     subtitle: 'Adaptive Behavior Learning',
     description: 'Advancing reinforcement learning methods for embodied agents with focus on safe exploration, sample efficiency, and robust policy learning in real-world environments. We develop algorithms that enable agents to learn complex behaviors through interaction.',
     icon: 'Zap',
-    image: '/images/neural_network_word_vector_language_model_architecture_diagram.jpg',
+    image: './images/neural_network_word_vector_language_model_architecture_diagram.jpg',
     keyTopics: [
       'Safe exploration strategies',
       'Sample-efficient learning',
@@ -62,7 +62,7 @@ export const researchDirections: ResearchDirection[] = [
     subtitle: 'Predictive Environment Understanding',
     description: 'Creating comprehensive world models that enable agents to understand, predict, and reason about their environment. Our models learn the underlying dynamics of complex systems to enable intelligent planning and decision-making.',
     icon: 'Globe',
-    image: '/images/virtual_world_model_simulation_ai_genie_envisioner.jpg',
+    image: './images/virtual_world_model_simulation_ai_genie_envisioner.jpg',
     keyTopics: [
       'Predictive modeling',
       'Physics simulation',
@@ -77,7 +77,7 @@ export const researchDirections: ResearchDirection[] = [
     subtitle: 'Integrated Sensing Systems',
     description: 'Building robust perception systems that integrate visual, tactile, auditory, and proprioceptive information for comprehensive environmental understanding. We focus on real-time processing and cross-modal learning.',
     icon: 'Eye',
-    image: '/images/ai_semantic_clustering_neural_network_data_visualization.jpg',
+    image: './images/ai_semantic_clustering_neural_network_data_visualization.jpg',
     keyTopics: [
       'Cross-modal learning',
       'Sensor fusion',
@@ -92,7 +92,7 @@ export const researchDirections: ResearchDirection[] = [
     subtitle: 'Intelligent Motor Skills',
     description: 'Developing sophisticated control systems for embodied agents that can perform complex manipulation and navigation tasks. Our research combines classical control theory with modern learning approaches.',
     icon: 'Settings',
-    image: '/images/neural_network_architecture_diagram_ai_data_visualization.jpg',
+    image: './images/neural_network_architecture_diagram_ai_data_visualization.jpg',
     keyTopics: [
       'Hierarchical control',
       'Motor skill learning',
@@ -107,7 +107,7 @@ export const researchDirections: ResearchDirection[] = [
     subtitle: 'Collaborative Intelligence',
     description: 'Researching natural and intuitive ways for humans and AI agents to collaborate. We focus on communication, trust, and shared understanding between humans and embodied AI systems.',
     icon: 'Users',
-    image: '/images/high_tech_ai_robot_research.jpg',
+    image: './images/high_tech_ai_robot_research.jpg',
     keyTopics: [
       'Natural language interaction',
       'Trust and transparency',
