@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Models from './pages/Models';
 import Research from './pages/Research';
@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename=''>
       <div className="App min-h-screen bg-[#0A0A0A]">
         <Routes>
           <Route path="/" element={<Home />} />

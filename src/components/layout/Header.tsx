@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import Button from '../ui/Button';
-
+const imgPath = import.meta.env.BASE_URL || '/';
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
               <span className="text-white font-bold text-lg">A</span>
             </div> */}
             <img
-                src="/images/logo-48x48.png"
+                src={`${imgPath}images/logo-48x48.png`}
               alt="AgiBot"
               className="w-10 h-10 rounded-lg object-cover"
             />

@@ -12,14 +12,14 @@ export interface HomeProject {
   features: string[];
   stats?: { label: string; value: string }[];
 }
-
+const imgPath = import.meta.env.BASE_URL 
 export const homeProjects: HomeProject[] = [
   {
     id: 'hero',
     title: 'AgiBot Research',
     subtitle: 'Pioneering Embodied Intelligence',
     description: '', //
-    image: '/images/futuristic_ai_brain_neural_network_dark_hero.jpg',
+    image: `${imgPath}images/futuristic_ai_brain_neural_network_dark_hero.jpg`,
     learnMoreUrl: '/about',
     features: [
       'Embodied Large & Small Brain Architecture',
@@ -33,7 +33,7 @@ export const homeProjects: HomeProject[] = [
     title: 'Genie Envisioner',
     subtitle: 'Unified World Foundation Platform',
     description: 'Genie Envisioner is a unified world foundation platform that integrates manipulation policy learning and evaluation within a single video-generative framework.',
-    image: '/images/virtual_world_model_simulation_ai_genie_envisioner.jpg',
+    image: `${imgPath}images/virtual_world_model_simulation_ai_genie_envisioner.jpg`,
     learnMoreUrl: 'https://genie-envisioner.github.io/',
     githubUrl: 'https://github.com/AgibotTech/Genie-Envisioner',
     features: [
@@ -54,7 +54,7 @@ export const homeProjects: HomeProject[] = [
     title: 'GO-1 Large Model',
     subtitle: 'Next-Generation Embodied Intelligence',
     description: 'Our flagship large-scale model architecture combining language understanding, visual perception, and motor control into a unified embodied intelligence system.',
-    image: '/images/transformer_architecture_large_language_model_ai_diagram.jpg',
+    image: `${imgPath}images/transformer_architecture_large_language_model_ai_diagram.jpg`,
     learnMoreUrl: '/models',
     githubUrl: 'https://github.com/agi-bot/go-1',
     features: [
@@ -75,7 +75,7 @@ export const homeProjects: HomeProject[] = [
     title: 'AgiBot World',
     subtitle: 'Comprehensive Embodied AI Dataset',
     description: 'A revolutionary multi-modal dataset capturing diverse real-world interactions for training embodied AI agents. Featuring over 1M episodes of robot-environment interactions across 1000+ scenarios.',
-    image: '/images/ai_neural_network_data_visualization_concept.jpg',
+    image: `${imgPath}images/ai_neural_network_data_visualization_concept.jpg`,
     githubUrl: 'https://github.com/agi-bot/agibot-world',
     learnMoreUrl: 'https://github.com/OpenDriveLab/Agibot-World',
     features: [

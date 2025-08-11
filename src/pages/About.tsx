@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout';
 import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';
 import { researchDirections, careers, companyInfo, contact } from '../data/about';
-
+const imgPath = import.meta.env.BASE_URL 
 const About: React.FC = () => {
   const iconMap = {
     Brain: TrendingUp,
@@ -89,7 +89,7 @@ const About: React.FC = () => {
               </div>
               <div className="relative">
                 <img
-                  src="/images/high_tech_ai_robotics_research_lab.jpg"
+                  src={`${imgPath}images/high_tech_ai_robotics_research_lab.jpg`}
                   alt="AgiBot Research Lab"
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
                 />
