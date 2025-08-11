@@ -34,9 +34,14 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#53a9de] to-[#3d7fb2] flex items-center justify-center">
+            {/* <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#53a9de] to-[#3d7fb2] flex items-center justify-center">
               <span className="text-white font-bold text-lg">A</span>
-            </div>
+            </div> */}
+            <img
+                src="/images/logo-48x48.png"
+              alt="AgiBot"
+              className="w-10 h-10 rounded-lg object-cover"
+            />
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg leading-none group-hover:text-[#53a9de] transition-colors">
                 AgiBot

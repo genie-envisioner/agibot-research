@@ -69,8 +69,9 @@ const Home: React.FC = () => {
           <div
             key={project.id}
             id={`section-${index}`}
-            className="snap-y snap-mandatory"
+            className={`snap-y snap-mandatory ${index === 0 ? 'scroll-mt-20' : ''}`}
           >
+            {index === 0 && <div className='placeholder-div' style={{ height: 80, pointerEvents: 'none' }} />}
             {index === 0 ? (
               <HeroSection
                 project={project}

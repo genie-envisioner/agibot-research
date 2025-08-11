@@ -50,8 +50,8 @@ const About: React.FC = () => {
                 <div className="text-[#888888]">Patents</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-[#53a9de] mb-2">{companyInfo.funding}</div>
-                <div className="text-[#888888]">Funding</div>
+                <div className="text-3xl font-bold text-[#53a9de] mb-2">{companyInfo.products}</div>
+                <div className="text-[#888888]">Products</div>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const About: React.FC = () => {
               </div>
               <div className="relative">
                 <img
-                  src="./images/high_tech_ai_robotics_research_lab.jpg"
+                  src="/images/high_tech_ai_robotics_research_lab.jpg"
                   alt="AgiBot Research Lab"
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
                 />
@@ -163,7 +163,7 @@ const About: React.FC = () => {
         </section>
 
         {/* Careers */}
-        <section id="careers" className="py-16">
+        {/* <section id="careers" className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-white mb-6">Join Our Team</h2>
@@ -249,7 +249,7 @@ const About: React.FC = () => {
               </Button>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Contact */}
         <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
