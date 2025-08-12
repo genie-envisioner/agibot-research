@@ -202,20 +202,20 @@ export const companyInfo = {
   name: 'AgiBot Research',
   mission: 'Leading the frontiers of embodied AI with cutting-edge research in robotics, world models, and intelligent agents',
   vision: 'A future where AI agents possess both digital intelligence and physical understanding, enabling them to collaborate with humans and navigate complex real-world environments.',
-  founded: '2023',
-  locations: ['Shanghai, China','Beijing, China','Guangdong, China'],
-  // teamSize: '150+',
-  robots_num: '1000+',
+  founded: '2020',
+  locations: ['San Francisco, CA', 'New York, NY', 'Austin, TX', 'Boston, MA'],
+  teamSize: '30+',
   publications: '20+',
   patents: '10+',
-  products: '3 series',
+  funding: '$10M',
+  products: '4',
 };
 
 export const socialLinks = {
-  facebook: 'https://www.facebook.com/profile.php?id=61571059866465',
-  linkedin: 'https://www.linkedin.com/company/agibot/?viewAsMember=true',
-  github: 'https://github.com/OpenDriveLab/Agibot-World',
-  youtube: 'https://www.youtube.com/channel/UCuKcqTxz_fe1PbrsIAQXr5A'
+  twitter: 'https://x.com/agibotworld',
+  linkedin: 'https://www.linkedin.com/company/agibot/',
+  github: 'https://github.com/AgibotTech',
+  youtube: 'https://www.youtube.com/@About-AgiBot'
 };
 
 export const contact = {
