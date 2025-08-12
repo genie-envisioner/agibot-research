@@ -3,7 +3,7 @@ import { MapPin, Users, Calendar, ExternalLink, Mail, TrendingUp, Award, Buildin
 import Layout from '../components/layout/Layout';
 import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';
-import { researchDirections, careers, companyInfo, contact } from '../data/about';
+import { researchDirections, companyInfo, contact } from '../data/about';
 const imgPath = import.meta.env.BASE_URL 
 const About: React.FC = () => {
   const iconMap = {
