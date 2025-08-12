@@ -206,6 +206,7 @@ export const companyInfo = {
   locations: ['San Francisco, CA', 'New York, NY', 'Austin, TX', 'Boston, MA'],
   teamSize: '30+',
   publications: '20+',
+  robots_num: '1000+',
   patents: '10+',
   funding: '$10M',
   products: '4',
