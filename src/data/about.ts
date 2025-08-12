@@ -203,18 +203,18 @@ export const companyInfo = {
   vision: 'A future where AI agents possess both digital intelligence and physical understanding, enabling them to collaborate with humans and navigate complex real-world environments.',
   founded: '2020',
   locations: ['San Francisco, CA', 'New York, NY', 'Austin, TX', 'Boston, MA'],
-  teamSize: '150+',
+  teamSize: '30+',
   publications: '20+',
   patents: '10+',
-  funding: '$150M Series B',
-  products: '4',
+  // funding: '$150M Series B',
+  // products: '4',
 };
 
 export const socialLinks = {
-  twitter: 'https://twitter.com/agibotresearch',
-  linkedin: 'https://linkedin.com/company/agibot-research',
-  github: 'https://github.com/agi-bot',
-  youtube: 'https://youtube.com/c/agibotresearch'
+  twitter: 'https://x.com/agibotworld',
+  linkedin: 'https://www.linkedin.com/company/agibot/',
+  github: 'https://github.com/AgibotTech',
+  youtube: 'https://www.youtube.com/@About-AgiBot'
 };
 
 export const contact = {
