@@ -120,96 +120,98 @@ export const researchDirections: ResearchDirection[] = [
   // }
 ];
 
-export const careers: Career[] = [
-  {
-    id: 'senior-research-scientist',
-    title: 'Senior Research Scientist - Embodied AI',
-    department: 'Research',
-    location: 'San Francisco, CA / Remote',
-    type: 'Full-time',
-    level: 'Senior',
-    description: 'Lead cutting-edge research in embodied artificial intelligence, focusing on world models and multimodal learning systems.',
-    requirements: [
-      'PhD in Computer Science, Robotics, or related field',
-      '5+ years of experience in AI/ML research',
-      'Strong publication record in top-tier conferences',
-      'Experience with embodied AI or robotics',
-      'Proficiency in Python, PyTorch/TensorFlow'
-    ],
-    responsibilities: [
-      'Conduct innovative research in embodied AI',
-      'Publish findings in top-tier venues',
-      'Collaborate with interdisciplinary teams',
-      'Mentor junior researchers and interns',
-      'Present research at international conferences'
-    ],
-    applyUrl: 'mailto:careers@agibot-research.com?subject=Senior Research Scientist Application',
-    posted: '2025-01-15'
-  },
-  {
-    id: 'ml-engineer',
-    title: 'Machine Learning Engineer',
-    department: 'Engineering',
-    location: 'New York, NY / Hybrid',
-    type: 'Full-time',
-    level: 'Mid',
-    description: 'Build and scale machine learning systems for embodied AI applications, from prototype to production.',
-    requirements: [
-      'MS/PhD in Computer Science or related field',
-      '3+ years of ML engineering experience',
-      'Experience with large-scale distributed training',
-      'Strong software engineering skills',
-      'Knowledge of robotics or embodied AI preferred'
-    ],
-    responsibilities: [
-      'Design and implement ML pipelines',
-      'Optimize model training and inference',
-      'Collaborate with research teams',
-      'Deploy models to production systems',
-      'Maintain and monitor ML infrastructure'
-    ],
-    applyUrl: 'mailto:careers@agibot-research.com?subject=ML Engineer Application',
-    posted: '2025-01-10'
-  },
-  {
-    id: 'research-intern',
-    title: 'Research Intern - Summer 2025',
-    department: 'Research',
-    location: 'Multiple Locations',
-    type: 'Internship',
-    level: 'Entry',
-    description: 'Join our research team for a 12-week summer internship program, working on cutting-edge embodied AI projects.',
-    requirements: [
-      'Currently pursuing PhD in relevant field',
-      'Strong background in machine learning or robotics',
-      'Programming experience in Python',
-      'Previous research experience preferred',
-      'Excellent communication skills'
-    ],
-    responsibilities: [
-      'Conduct research under senior scientist mentorship',
-      'Implement and experiment with novel algorithms',
-      'Present findings to research team',
-      'Contribute to publications and open-source projects',
-      'Participate in lab meetings and seminars'
-    ],
-    applyUrl: 'mailto:careers@agibot-research.com?subject=Research Intern Application',
-    posted: '2025-01-01'
-  }
-];
+// export const careers: Career[] = [
+//   {
+//     id: 'senior-research-scientist',
+//     title: 'Senior Research Scientist - Embodied AI',
+//     department: 'Research',
+//     location: 'San Francisco, CA / Remote',
+//     type: 'Full-time',
+//     level: 'Senior',
+//     description: 'Lead cutting-edge research in embodied artificial intelligence, focusing on world models and multimodal learning systems.',
+//     requirements: [
+//       'PhD in Computer Science, Robotics, or related field',
+//       '5+ years of experience in AI/ML research',
+//       'Strong publication record in top-tier conferences',
+//       'Experience with embodied AI or robotics',
+//       'Proficiency in Python, PyTorch/TensorFlow'
+//     ],
+//     responsibilities: [
+//       'Conduct innovative research in embodied AI',
+//       'Publish findings in top-tier venues',
+//       'Collaborate with interdisciplinary teams',
+//       'Mentor junior researchers and interns',
+//       'Present research at international conferences'
+//     ],
+//     applyUrl: 'mailto:careers@agibot-research.com?subject=Senior Research Scientist Application',
+//     posted: '2025-01-15'
+//   },
+//   {
+//     id: 'ml-engineer',
+//     title: 'Machine Learning Engineer',
+//     department: 'Engineering',
+//     location: 'New York, NY / Hybrid',
+//     type: 'Full-time',
+//     level: 'Mid',
+//     description: 'Build and scale machine learning systems for embodied AI applications, from prototype to production.',
+//     requirements: [
+//       'MS/PhD in Computer Science or related field',
+//       '3+ years of ML engineering experience',
+//       'Experience with large-scale distributed training',
+//       'Strong software engineering skills',
+//       'Knowledge of robotics or embodied AI preferred'
+//     ],
+//     responsibilities: [
+//       'Design and implement ML pipelines',
+//       'Optimize model training and inference',
+//       'Collaborate with research teams',
+//       'Deploy models to production systems',
+//       'Maintain and monitor ML infrastructure'
+//     ],
+//     applyUrl: 'mailto:careers@agibot-research.com?subject=ML Engineer Application',
+//     posted: '2025-01-10'
+//   },
+//   {
+//     id: 'research-intern',
+//     title: 'Research Intern - Summer 2025',
+//     department: 'Research',
+//     location: 'Multiple Locations',
+//     type: 'Internship',
+//     level: 'Entry',
+//     description: 'Join our research team for a 12-week summer internship program, working on cutting-edge embodied AI projects.',
+//     requirements: [
+//       'Currently pursuing PhD in relevant field',
+//       'Strong background in machine learning or robotics',
+//       'Programming experience in Python',
+//       'Previous research experience preferred',
+//       'Excellent communication skills'
+//     ],
+//     responsibilities: [
+//       'Conduct research under senior scientist mentorship',
+//       'Implement and experiment with novel algorithms',
+//       'Present findings to research team',
+//       'Contribute to publications and open-source projects',
+//       'Participate in lab meetings and seminars'
+//     ],
+//     applyUrl: 'mailto:careers@agibot-research.com?subject=Research Intern Application',
+//     posted: '2025-01-01'
+//   }
+// ];
 
 export const companyInfo = {
   name: 'AgiBot Research',
   mission: 'Leading the frontiers of embodied AI with cutting-edge research in robotics, world models, and intelligent agents',
   vision: 'A future where AI agents possess both digital intelligence and physical understanding, enabling them to collaborate with humans and navigate complex real-world environments.',
-  founded: '2020',
-  locations: ['San Francisco, CA', 'New York, NY', 'Austin, TX', 'Boston, MA'],
+  founded: '2023',
+  locations: ['Shanghai, China','Beijing, China','Guangdong, China'],
   teamSize: '30+',
   publications: '20+',
+  robots_num: '1000+',
   patents: '10+',
-  funding: '$10M',
+  // funding: '$10M',
   products: '4',
 };
+
 
 export const socialLinks = {
   twitter: 'https://x.com/agibotworld',
