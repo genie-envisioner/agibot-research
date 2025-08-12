@@ -24,6 +24,7 @@ export interface Career {
   applyUrl: string;
   posted: string;
 }
+
 const imgPath = import.meta.env.BASE_URL || '/';
 
 export const researchDirections: ResearchDirection[] = [
@@ -40,23 +41,23 @@ export const researchDirections: ResearchDirection[] = [
       'Large-scale model integration',
       'Efficient specialization'
     ],
-    publications: 15
+    publications: 1
   },
-  {
-    id: 'reinforcement-learning',
-    title: 'Reinforcement Learning',
-    subtitle: 'Adaptive Behavior Learning',
-    description: 'Advancing reinforcement learning methods for embodied agents with focus on safe exploration, sample efficiency, and robust policy learning in real-world environments. We develop algorithms that enable agents to learn complex behaviors through interaction.',
-    icon: 'Zap',
-    image: `${imgPath}images/neural_network_word_vector_language_model_architecture_diagram.jpg`,
-    keyTopics: [
-      'Safe exploration strategies',
-      'Sample-efficient learning',
-      'Multi-task reinforcement learning',
-      'Hierarchical policy learning'
-    ],
-    publications: 12
-  },
+  // {
+  //   id: 'reinforcement-learning',
+  //   title: 'Reinforcement Learning',
+  //   subtitle: 'Adaptive Behavior Learning',
+  //   description: 'Advancing reinforcement learning methods for embodied agents with focus on safe exploration, sample efficiency, and robust policy learning in real-world environments. We develop algorithms that enable agents to learn complex behaviors through interaction.',
+  //   icon: 'Zap',
+  //   image: `${imgPath}images/neural_network_word_vector_language_model_architecture_diagram.jpg`,
+  //   keyTopics: [
+  //     'Safe exploration strategies',
+  //     'Sample-efficient learning',
+  //     'Multi-task reinforcement learning',
+  //     'Hierarchical policy learning'
+  //   ],
+  //   publications: 12
+  // },
   {
     id: 'world-models',
     title: 'World Models',
@@ -70,53 +71,53 @@ export const researchDirections: ResearchDirection[] = [
       'Causal reasoning',
       'Long-term planning'
     ],
-    publications: 18
+    publications: 4
   },
-  {
-    id: 'multimodal-perception',
-    title: 'Multimodal Perception',
-    subtitle: 'Integrated Sensing Systems',
-    description: 'Building robust perception systems that integrate visual, tactile, auditory, and proprioceptive information for comprehensive environmental understanding. We focus on real-time processing and cross-modal learning.',
-    icon: 'Eye',
-    image: `${imgPath}images/ai_semantic_clustering_neural_network_data_visualization.jpg`,
-    keyTopics: [
-      'Cross-modal learning',
-      'Sensor fusion',
-      'Real-time perception',
-      '3D scene understanding'
-    ],
-    publications: 10
-  },
-  {
-    id: 'embodied-control',
-    title: 'Embodied Control',
-    subtitle: 'Intelligent Motor Skills',
-    description: 'Developing sophisticated control systems for embodied agents that can perform complex manipulation and navigation tasks. Our research combines classical control theory with modern learning approaches.',
-    icon: 'Settings',
-    image: `${imgPath}images/neural_network_architecture_diagram_ai_data_visualization.jpg`,
-    keyTopics: [
-      'Hierarchical control',
-      'Motor skill learning',
-      'Adaptive manipulation',
-      'Navigation systems'
-    ],
-    publications: 14
-  },
-  {
-    id: 'human-ai-interaction',
-    title: 'Human-AI Interaction',
-    subtitle: 'Collaborative Intelligence',
-    description: 'Researching natural and intuitive ways for humans and AI agents to collaborate. We focus on communication, trust, and shared understanding between humans and embodied AI systems.',
-    icon: 'Users',
-    image: `${imgPath}images/high_tech_ai_robot_research.jpg`,
-    keyTopics: [
-      'Natural language interaction',
-      'Trust and transparency',
-      'Collaborative planning',
-      'Intent recognition'
-    ],
-    publications: 8
-  }
+  // {
+  //   id: 'multimodal-perception',
+  //   title: 'Multimodal Perception',
+  //   subtitle: 'Integrated Sensing Systems',
+  //   description: 'Building robust perception systems that integrate visual, tactile, auditory, and proprioceptive information for comprehensive environmental understanding. We focus on real-time processing and cross-modal learning.',
+  //   icon: 'Eye',
+  //   image: `${imgPath}images/ai_semantic_clustering_neural_network_data_visualization.jpg`,
+  //   keyTopics: [
+  //     'Cross-modal learning',
+  //     'Sensor fusion',
+  //     'Real-time perception',
+  //     '3D scene understanding'
+  //   ],
+  //   publications: 10
+  // },
+  // {
+  //   id: 'embodied-control',
+  //   title: 'Embodied Control',
+  //   subtitle: 'Intelligent Motor Skills',
+  //   description: 'Developing sophisticated control systems for embodied agents that can perform complex manipulation and navigation tasks. Our research combines classical control theory with modern learning approaches.',
+  //   icon: 'Settings',
+  //   image: `${imgPath}images/neural_network_architecture_diagram_ai_data_visualization.jpg`,
+  //   keyTopics: [
+  //     'Hierarchical control',
+  //     'Motor skill learning',
+  //     'Adaptive manipulation',
+  //     'Navigation systems'
+  //   ],
+  //   publications: 14
+  // },
+  // {
+  //   id: 'human-ai-interaction',
+  //   title: 'Human-AI Interaction',
+  //   subtitle: 'Collaborative Intelligence',
+  //   description: 'Researching natural and intuitive ways for humans and AI agents to collaborate. We focus on communication, trust, and shared understanding between humans and embodied AI systems.',
+  //   icon: 'Users',
+  //   image: `${imgPath}images/high_tech_ai_robot_research.jpg`,
+  //   keyTopics: [
+  //     'Natural language interaction',
+  //     'Trust and transparency',
+  //     'Collaborative planning',
+  //     'Intent recognition'
+  //   ],
+  //   publications: 8
+  // }
 ];
 
 export const careers: Career[] = [
@@ -201,25 +202,22 @@ export const companyInfo = {
   name: 'AgiBot Research',
   mission: 'Leading the frontiers of embodied AI with cutting-edge research in robotics, world models, and intelligent agents',
   vision: 'A future where AI agents possess both digital intelligence and physical understanding, enabling them to collaborate with humans and navigate complex real-world environments.',
-  founded: '2020',
-  locations: ['San Francisco, CA', 'New York, NY', 'Austin, TX', 'Boston, MA'],
-  teamSize: '150+',
+  founded: '2023',
+  locations: ['Shanghai, China','Beijing, China','Guangdong, China'],
+  // teamSize: '150+',
+  robots_num: '1000+',
   publications: '20+',
   patents: '10+',
-  funding: '$150M Series B',
-  products: '4',
+  products: '3 series',
 };
 
 export const socialLinks = {
-  twitter: 'https://twitter.com/agibotresearch',
-  linkedin: 'https://linkedin.com/company/agibot-research',
-  github: 'https://github.com/agi-bot',
-  youtube: 'https://youtube.com/c/agibotresearch'
+  facebook: 'https://www.facebook.com/profile.php?id=61571059866465',
+  linkedin: 'https://www.linkedin.com/company/agibot/?viewAsMember=true',
+  github: 'https://github.com/OpenDriveLab/Agibot-World',
+  youtube: 'https://www.youtube.com/channel/UCuKcqTxz_fe1PbrsIAQXr5A'
 };
 
 export const contact = {
-  email: 'contact@agibot-research.com',
-  careers: 'careers@agibot-research.com',
-  press: 'press@agibot-research.com',
-  partnerships: 'partnerships@agibot-research.com'
+  email: 'business@zhiyuan-robot.com',
 };

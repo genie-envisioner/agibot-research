@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Github, Linkedin, Twitter, Youtube, Mail } from 'lucide-react';
 import { socialLinks, contact } from '../../data/about';
 
+const imgPath = import.meta.env.BASE_URL || '/';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
@@ -13,25 +14,25 @@ const Footer: React.FC = () => {
         { name: 'Publications', path: '/research' },
         { name: 'Models', path: '/models' },
         { name: 'Datasets', path: '/research?filter=dataset' },
-        { name: 'Open Source', path: 'https://github.com/agi-bot' }
+        // { name: 'Open Source', path: 'https://github.com/OpenDriveLab/Agibot-World' }
       ]
     },
     {
       title: 'Company',
       links: [
         { name: 'About Us', path: '/about' },
-        { name: 'Careers', path: '/about#careers' },
-        { name: 'Team', path: '/about#team' },
-        { name: 'Press', path: '/press' }
+        // { name: 'Careers', path: '/about#careers' },
+        // { name: 'Team', path: '/about#team' },
+        // { name: 'Press', path: '/press' }
       ]
     },
     {
       title: 'Connect',
       links: [
         { name: 'Contact Us', path: `mailto:${contact.email}` },
-        { name: 'Partnerships', path: `mailto:${contact.partnerships}` },
-        { name: 'Media Inquiries', path: `mailto:${contact.press}` },
-        { name: 'Support', path: '/support' }
+        // { name: 'Partnerships', path: `mailto:${contact.partnerships}` },
+        // { name: 'Media Inquiries', path: `mailto:${contact.press}` },
+        // { name: 'Support', path: '/support' }
       ]
     }
   ];
@@ -50,9 +51,14 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#53a9de] to-[#3d7fb2] flex items-center justify-center">
+              {/* <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#53a9de] to-[#3d7fb2] flex items-center justify-center">
                 <span className="text-white font-bold text-lg">A</span>
-              </div>
+              </div> */}
+              <img
+                src={`${imgPath}images/logo-48x48.png`}
+              alt="AgiBot"
+              className="w-10 h-10 rounded-lg object-cover"
+              />
               <div className="flex flex-col">
                 <span className="text-white font-bold text-lg leading-none">
                   AgiBot

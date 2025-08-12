@@ -226,7 +226,7 @@ const Research: React.FC = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
+        {/* <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-white mb-6">
               Collaborate with Us
@@ -244,7 +244,7 @@ const Research: React.FC = () => {
               </Button>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </Layout>
   );

@@ -38,8 +38,8 @@ const About: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-3xl font-bold text-[#53a9de] mb-2">{companyInfo.teamSize}</div>
-                <div className="text-[#888888]">Team Members</div>
+                <div className="text-3xl font-bold text-[#53a9de] mb-2">{companyInfo.robots_num}</div>
+                <div className="text-[#888888]">Robots</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-[#53a9de] mb-2">{companyInfo.publications}</div>
@@ -89,9 +89,10 @@ const About: React.FC = () => {
               </div>
               <div className="relative">
                 <img
-                  src={`${imgPath}images/high_tech_ai_robotics_research_lab.jpg`}
+                  src={`${imgPath}images/banner20250117.jpg`}
                   alt="AgiBot Research Lab"
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
+                  
                 />
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/30 via-transparent to-transparent" />
               </div>
@@ -252,7 +253,7 @@ const About: React.FC = () => {
         </section> */}
 
         {/* Contact */}
-        <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
+        {/* <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-white mb-6">Get in Touch</h2>
             <p className="text-lg text-[#E0E0E0] mb-8">
@@ -283,7 +284,7 @@ const About: React.FC = () => {
               Contact Us
             </Button>
           </div>
-        </section>
+        </section> */}
       </div>
     </Layout>
   );

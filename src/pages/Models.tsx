@@ -39,10 +39,10 @@ const Models: React.FC = () => {
               All models are open source and ready for research and development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button onClick={() => window.open('https://github.com/agi-bot', '_blank')}>
+              <Button onClick={() => window.open('https://github.com/OpenDriveLab/Agibot-World', '_blank')}>
                 Browse on GitHub
               </Button>
-              <Button variant="secondary" onClick={() => window.open('https://huggingface.co/agibot', '_blank')}>
+              <Button variant="secondary" onClick={() => window.open('https://huggingface.co/agibot-world', '_blank')}>
                 View on Hugging Face
               </Button>
             </div>
@@ -146,7 +146,7 @@ const Models: React.FC = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
+        {/* <section className="py-16 bg-gradient-to-r from-[#53a9de]/10 to-[#3d7fb2]/10">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-white mb-6">
               Ready to Build with Our Models?
@@ -155,7 +155,7 @@ const Models: React.FC = () => {
               Join our community of researchers and developers building the future of embodied AI
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button onClick={() => window.open('https://github.com/agi-bot', '_blank')}>
+              <Button onClick={() => window.open('https://github.com/OpenDriveLab/Agibot-World', '_blank')}>
                 Start Building
               </Button>
               <Button variant="secondary">
@@ -163,7 +163,7 @@ const Models: React.FC = () => {
               </Button>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </Layout>
   );

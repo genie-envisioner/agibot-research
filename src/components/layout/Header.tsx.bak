@@ -73,7 +73,7 @@ const Header: React.FC = () => {
             <Button
               variant="secondary"
               size="sm"
-              onClick={() => window.open('https://github.com/agi-bot', '_blank')}
+              onClick={() => window.open('https://github.com/OpenDriveLab/Agibot-World', '_blank')}
             >
               GitHub
             </Button>
@@ -112,7 +112,7 @@ const Header: React.FC = () => {
                   size="sm"
                   className="w-full"
                   onClick={() => {
-                    window.open('https://github.com/agi-bot', '_blank');
+                    window.open('https://github.com/OpenDriveLab/Agibot-World', '_blank');
                     setIsMobileMenuOpen(false);
                   }}
                 >

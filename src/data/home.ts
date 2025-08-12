@@ -54,20 +54,18 @@ export const homeProjects: HomeProject[] = [
     title: 'GO-1 Large Model',
     subtitle: 'Next-Generation Embodied Intelligence',
     description: 'Our flagship large-scale model architecture combining language understanding, visual perception, and motor control into a unified embodied intelligence system.',
-    image: `${imgPath}images/transformer_architecture_large_language_model_ai_diagram.jpg`,
-    learnMoreUrl: '/models',
-    githubUrl: 'https://github.com/agi-bot/go-1',
+    image: `${imgPath}images/go-1-model-arch.jpg`,
+    learnMoreUrl: '#/models',
+    githubUrl: 'https://github.com/OpenDriveLab/Agibot-World/',
     features: [
-      '10B parameter unified multimodal architecture',
       'Real-time sensorimotor integration',
       'Natural language instruction following',
       'Adaptive behavior learning'
     ],
     stats: [
-      { label: 'Parameters', value: '10B' },
-      { label: 'Modalities', value: '6' },
+      { label: 'Parameters', value: '2B' },
+      // { label: 'Modalities', value: '6' },
       { label: 'Tasks', value: '100+' },
-      { label: 'Success Rate', value: '92%' }
     ]
   },
   {
@@ -75,8 +73,8 @@ export const homeProjects: HomeProject[] = [
     title: 'AgiBot World',
     subtitle: 'Comprehensive Embodied AI Dataset',
     description: 'A revolutionary multi-modal dataset capturing diverse real-world interactions for training embodied AI agents. Featuring over 1M episodes of robot-environment interactions across 1000+ scenarios.',
-    image: `${imgPath}images/ai_neural_network_data_visualization_concept.jpg`,
-    githubUrl: 'https://github.com/agi-bot/agibot-world',
+    image: `${imgPath}images/agibot-world-banner.gif`,
+    githubUrl: 'https://github.com/OpenDriveLab/Agibot-World',
     learnMoreUrl: 'https://github.com/OpenDriveLab/Agibot-World',
     features: [
       'Multi-modal sensory data (RGB, Depth, Tactile)',

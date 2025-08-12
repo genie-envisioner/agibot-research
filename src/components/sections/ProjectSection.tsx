@@ -22,7 +22,7 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ project, index }) => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl"
+                className="w-full h-96 lg:h-[400px] bg-black flex items-center justify-center rounded-2xl shadow-2xl overflow-hidden"
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               
