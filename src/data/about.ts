@@ -206,8 +206,8 @@ export const companyInfo = {
   teamSize: '30+',
   publications: '20+',
   patents: '10+',
-  // funding: '$150M Series B',
-  // products: '4',
+  funding: '$10M',
+  products: '4',
 };
 
 export const socialLinks = {
